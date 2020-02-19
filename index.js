@@ -59,9 +59,8 @@ function renderPokemon(pokeData){
 
     createTypes(pokeData.types, pokeTypes)
 
-    pokeContainer.append(pokeName, pokeNumber, pokeTypes); 
-    allPokemonContainer.appendChild(pokeContainer);                                                         hold all the pokemon cards
-}
+    pokeContainer.append(pokeName, pokeNumber, pokeTypes);   
+    allPokemonContainer.appendChild(pokeContainer);
 
 function createTypes(types, ul){
     types.forEach(function(type){
